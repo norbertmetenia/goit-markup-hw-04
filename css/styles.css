@@ -27,11 +27,7 @@ body {
   padding-top: 24px;
   padding-bottom: 25px;
 }
-.links-footer {
-  text-decoration: none;
-  letter-spacing: 0.03em;
-  padding-top: 60px;
-}
+
 .header-list {
   text-decoration: none;
   color: inherit;
@@ -53,6 +49,7 @@ body {
   border-radius: 4px;
   border-style: none;
   padding: 10px 41px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 .header-number {
   color: rgba(117, 117, 117, 1);
@@ -60,7 +57,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  margin-left: 50px;
+  margin-left: 10px;
 }
 .header-number:hover {
   color: rgba(33, 150, 243, 1);
@@ -71,7 +68,7 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  margin-left: 371px;
+  margin-left: 10px;
 }
 .header-mail:hover {
   color: rgba(33, 150, 243, 1);
@@ -105,7 +102,8 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: rgba(47, 48, 58, 1);
+  background: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
+    url("../images/background-image.jpg");
   gap: 30px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -277,11 +275,7 @@ body {
 .team-list-div {
   padding-bottom: 94px;
 }
-.footer-section {
-  display: flex;
-  flex-direction: column;
-  background-color: rgba(47, 48, 58, 1);
-}
+
 .team-list-item {
   background-color: rgba(255, 255, 255, 1);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -309,6 +303,11 @@ body {
 .item-list-all {
   width: 370px;
 }
+.item-list-all:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+  cursor: pointer;
+}
 .outline-different-things {
   border-left: 1px solid rgba(238, 238, 238, 1);
   border-bottom: 1px solid rgba(238, 238, 238, 1);
@@ -330,4 +329,135 @@ body {
 }
 img {
   display: block;
+}
+.header-client-text {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-top: 94px;
+  margin-bottom: 50px;
+}
+
+.icon-client-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.icon-client {
+  display: flex;
+  box-sizing: border-box;
+  width: 170px;
+  height: 92;
+  padding: 17.71px 32px 14.25px 32px;
+  fill: rgba(175, 177, 184, 1);
+  border: 1px solid rgba(175, 177, 184, 1);
+  border-radius: 4px;
+  margin-bottom: 94px;
+}
+.icon-client:hover {
+  fill: rgba(33, 150, 243, 1);
+  border-color: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+.icon-mail {
+  margin-left: 345px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-mail:hover {
+  fill: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+.icon-number {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon-number:hover {
+  fill: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+.info-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: rgba(245, 244, 250, 1);
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(47, 48, 58, 1);
+}
+.links-footer {
+  text-decoration: none;
+  letter-spacing: 0.03em;
+}
+.adress-div-footer {
+  margin-top: 60px;
+}
+.icon-div-footer {
+  margin-left: 70px;
+  margin-top: 72px;
+}
+.footer-text {
+  color: rgba(255, 255, 255, 1);
+  margin: 0px;
+  font-weight: 700;
+  line-height: 16.41px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.icon-box-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  margin-bottom: 30px;
+  fill: rgba(175, 177, 184, 1);
+}
+.icon-box:hover {
+  background-color: rgba(33, 150, 243, 1);
+  fill: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.icon-box-parent-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 0px;
+  margin-top: 20px;
+}
+.icon-box-footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  fill: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+}
+.icon-box-footer:hover {
+  background-color: rgba(33, 150, 243, 1);
+  fill: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  cursor: pointer;
 }
