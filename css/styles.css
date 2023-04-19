@@ -8,9 +8,12 @@ body {
   color: rgba(33, 150, 243, 1);
   font-family: "Raleway", sans-serif;
   font-size: 26px;
-  margin-left: 215px;
 }
-
+.semi-tittle-footer {
+  color: rgba(33, 150, 243, 1);
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+}
 .tittle-end {
   color: rgba(0, 0, 0, 1);
   font-family: "Raleway", sans-serif;
@@ -24,8 +27,9 @@ body {
 .links {
   text-decoration: none;
   letter-spacing: 0.03em;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+  margin-left: 215px;
 }
 
 .header-list {
@@ -57,7 +61,10 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 .header-number:hover {
   color: rgba(33, 150, 243, 1);
@@ -68,7 +75,10 @@ body {
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.02em;
-  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 .header-mail:hover {
   color: rgba(33, 150, 243, 1);
@@ -270,7 +280,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: rgba(245, 244, 250, 1);
 }
 .team-list-div {
   padding-bottom: 94px;
@@ -284,13 +293,13 @@ body {
 }
 .footer-contact-list {
   list-style: none;
-  margin-left: 215px;
   padding: 0px;
   display: flex;
   flex-direction: column;
   gap: 9px;
-  margin-bottom: 60px;
+  margin-bottom: 0px;
   margin-top: 20px;
+  height: 81px;
 }
 .container {
   display: flex;
@@ -395,18 +404,16 @@ img {
 .footer-section {
   display: flex;
   flex-direction: row;
-  background-color: rgba(47, 48, 58, 1);
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 .links-footer {
   text-decoration: none;
   letter-spacing: 0.03em;
 }
-.adress-div-footer {
-  margin-top: 60px;
-}
 .icon-div-footer {
   margin-left: 70px;
-  margin-top: 72px;
+  margin-top: 12px;
 }
 .footer-text {
   color: rgba(255, 255, 255, 1);
@@ -460,4 +467,10 @@ img {
   fill: rgba(255, 255, 255, 1);
   border-radius: 50%;
   cursor: pointer;
+}
+.background-footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+.background-team {
+  background-color: rgba(245, 244, 250, 1);
 }
