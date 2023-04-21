@@ -29,7 +29,6 @@ body {
   letter-spacing: 0.03em;
   margin-top: 24px;
   margin-bottom: 25px;
-  margin-left: 215px;
 }
 
 .header-list {
@@ -69,6 +68,9 @@ body {
 .header-number:hover {
   color: rgba(33, 150, 243, 1);
 }
+.header-number:focus {
+  color: rgba(33, 150, 243, 1);
+}
 .header-mail {
   color: rgba(117, 117, 117, 1);
   text-decoration: none;
@@ -81,6 +83,9 @@ body {
   gap: 10px;
 }
 .header-mail:hover {
+  color: rgba(33, 150, 243, 1);
+}
+.header-mail:focus {
   color: rgba(33, 150, 243, 1);
 }
 .contact-header:hover {
@@ -179,7 +184,7 @@ body {
   margin-top: 0px;
   text-align: center;
   justify-content: center;
-  padding-bottom: 30px;
+  padding-bottom: 16px;
   margin: 0px;
 }
 .portfolio-buttons {
@@ -266,16 +271,6 @@ body {
   gap: 30px;
 }
 
-.header-section {
-  display: flex;
-  align-items: center;
-}
-.header-section-portfolio {
-  display: flex;
-  align-items: center;
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
-}
-
 .team-section {
   display: flex;
   flex-direction: column;
@@ -308,6 +303,11 @@ body {
   max-width: 1200px;
   margin: auto;
   padding: 0px 15px;
+}
+.header-section {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 .item-list-all {
   width: 370px;
@@ -381,6 +381,10 @@ img {
   fill: rgba(33, 150, 243, 1);
   cursor: pointer;
 }
+.icon-mail:focus {
+  fill: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
 .icon-number {
   margin-left: 30px;
   display: flex;
@@ -388,6 +392,10 @@ img {
   align-items: center;
 }
 .icon-number:hover {
+  fill: rgba(33, 150, 243, 1);
+  cursor: pointer;
+}
+.icon-number:focus {
   fill: rgba(33, 150, 243, 1);
   cursor: pointer;
 }
@@ -444,6 +452,12 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+.icon-box:focus {
+  background-color: rgba(33, 150, 243, 1);
+  fill: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  cursor: pointer;
+}
 .icon-box-parent-footer {
   display: flex;
   justify-content: center;
@@ -468,9 +482,18 @@ img {
   border-radius: 50%;
   cursor: pointer;
 }
+.icon-box-footer:focus {
+  background-color: rgba(33, 150, 243, 1);
+  fill: rgba(255, 255, 255, 1);
+  border-radius: 50%;
+  cursor: pointer;
+}
 .background-footer {
   background-color: rgba(47, 48, 58, 1);
 }
 .background-team {
   background-color: rgba(245, 244, 250, 1);
+}
+.header-border {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
