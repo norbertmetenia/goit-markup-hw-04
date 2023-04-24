@@ -41,7 +41,9 @@ body {
 .header-list:hover {
   color: rgba(33, 150, 243, 1);
 }
-
+.header-list:focus {
+  color: rgba(33, 150, 243, 1);
+}
 .button-buisness {
   cursor: pointer;
   color: rgba(255, 255, 255, 1);
@@ -382,11 +384,11 @@ img {
   justify-content: center;
   align-items: center;
 }
-.icon-mail:hover {
+.header-mail:hover {
   fill: rgba(33, 150, 243, 1);
   cursor: pointer;
 }
-.icon-mail:focus {
+.header-mail:focus {
   fill: rgba(33, 150, 243, 1);
   cursor: pointer;
 }
@@ -396,11 +398,11 @@ img {
   justify-content: center;
   align-items: center;
 }
-.icon-number:hover {
+.header-number:hover {
   fill: rgba(33, 150, 243, 1);
   cursor: pointer;
 }
-.icon-number:focus {
+.header-number:focus {
   fill: rgba(33, 150, 243, 1);
   cursor: pointer;
 }
@@ -471,7 +473,16 @@ img {
   margin: 0px;
   margin-top: 20px;
 }
-.icon-box-footer {
+.background-footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+.background-team {
+  background-color: rgba(245, 244, 250, 1);
+}
+.header-border {
+  border-bottom: 1px solid rgba(236, 236, 236, 1);
+}
+.icon-footer {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -481,24 +492,20 @@ img {
   background-color: rgba(255, 255, 255, 0.1);
   border-radius: 50%;
 }
-.icon-box-footer:hover {
+.icon-footer:focus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
   background-color: rgba(33, 150, 243, 1);
   fill: rgba(255, 255, 255, 1);
   border-radius: 50%;
   cursor: pointer;
 }
-.icon-box-footer:focus {
+.icon-footer:hover {
   background-color: rgba(33, 150, 243, 1);
   fill: rgba(255, 255, 255, 1);
   border-radius: 50%;
   cursor: pointer;
-}
-.background-footer {
-  background-color: rgba(47, 48, 58, 1);
-}
-.background-team {
-  background-color: rgba(245, 244, 250, 1);
-}
-.header-border {
-  border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
